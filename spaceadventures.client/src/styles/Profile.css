@@ -1,0 +1,127 @@
+.profile-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.profile-menu {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-menu li {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-menu li.active,
+.profile-menu li:hover {
+    background-color: #007bff;
+    color: white;
+}
+.profile-content {
+    padding: 30px;
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #34495e;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.profile-content p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+.user-info {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #2c3e50;
+}
+
+.user-info p span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.my-bookings ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.my-bookings li {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.my-bookings li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.my-bookings li .trip-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.my-bookings li .trip-details {
+    text-align: right;
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.5;
+}
+
+.profile-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+}

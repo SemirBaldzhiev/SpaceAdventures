@@ -1,0 +1,84 @@
+.booking-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.confirm-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .confirm-button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .confirm-button:hover:enabled {
+        background-color: #0056b3;
+    }
+
+
+.payment-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .payment-section h3 {
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    .payment-section .StripeElement {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+        margin-top: 10px;
+        width: 100%;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+        .payment-section .StripeElement:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    .payment-section p {
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+
+        .payment-section p.success {
+            color: green;
+            font-weight: bold;
+        }
+
+        .payment-section p.error {
+            color: red;
+            font-weight: bold;
+        }

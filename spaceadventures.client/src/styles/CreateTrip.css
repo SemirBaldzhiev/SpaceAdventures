@@ -1,0 +1,72 @@
+/* CreateTripPage.css */
+
+/* Main container for the trip form */
+.createTripContainer {
+    max-width: 700px;
+    margin: 2rem auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    /* Title */
+    .createTripContainer h1 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+/* Form Groups */
+.formGroup {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Labels */
+    .formGroup label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    /* Inputs & Selects */
+    .formGroup input,
+    .formGroup select {
+        padding: 0.6rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+
+/* Button */
+.submitButton {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.25rem;
+}
+
+    /* Button Hover */
+    .submitButton:hover {
+        background-color: #0056b3;
+    }
+
+/* Optional: Add a small transition effect to inputs on focus */
+.formGroup input:focus,
+.formGroup select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 1px #007bff;
+}
